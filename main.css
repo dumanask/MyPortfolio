@@ -1,0 +1,264 @@
+body{
+    background-color:#50a1e4;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    transition: 0.15s;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.my_image{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.main_windows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+/*----Navbar----*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    color: #f6f6f6;
+    position: sticky;
+    top: 0;
+    background-color: rgb(28, 28, 36);
+    z-index: 999;
+}
+.navcontainer {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    transition: 0.15s;
+}
+.logo {
+    font-size: 3em;
+    transition: 0.15s;
+}
+.active {
+    background: #50a1e4;
+    border-radius: 8px;
+}
+ul {
+    text-align: right;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 12px;
+}
+/*----Works----*/
+#webgl_iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#webgl_iframe2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#webgl_iframe3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#webgl_iframe4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#webgl_iframe5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#webgl_iframe6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----About----*/
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(3%);
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 250px;
+    margin: auto;
+    text-align: center;
+    background: white;
+}
+
+.certificateName {
+    color: blue;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+/*----Contacts----*/
+
+.contact_rcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact_ccontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(10%);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    flex-wrap: wrap;
+
+}
+
+.contact_inputs{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.contact_input{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: 3px solid black;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: .5rem;
+    text-align: center;
+}
+.contact_button{
+    display: block;
+    background-color: gray;
+    color: white;
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact_subtitle{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+.contact_text{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*----Footer----*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+.footer_data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_title {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.footer_social{
+    margin-bottom: 1rem;
+}
+.footer_icon {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 2rem;
+}
